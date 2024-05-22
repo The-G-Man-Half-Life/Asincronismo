@@ -1,0 +1,21 @@
+{
+    "title": "Fundamental Tips for Beginner Programmers",
+        "subtitle1": "Start with the basics",
+        "paragraph1": "Learn the basic concepts of programming before delving into a specific language or technology. Understanding how variables, control structures, functions, etc., work will give you a solid foundation to build upon.",
+        "subtitle2": "Choose a programming language and practice",
+        "paragraph2": "Don't overwhelm yourself by trying to learn multiple languages at once. Choose one that interests you and start practicing with it. Python is a good option for beginners as it is easy to learn and has a large support community.",
+        "subtitle3": "Don't be afraid to make mistakes",
+        "paragraph3": "Mistakes are part of the learning process. Don't get discouraged if something doesn't work the first time. Learn from your mistakes and keep going.",
+        "subtitle4": "Practice regularly",
+        "paragraph4": "Programming is like any other skill: the more you practice, the better you'll become. Set aside regular time to write code and solve programming problems.",
+        "subtitle5": "Don't be afraid to ask for help",
+        "paragraph5": "The best way to learn is by building things. Start with small projects and gradually increase complexity as you gain more experience, but if you feel overwhelmed don't hesitate to ask for support from others who can guide you.",
+        "subtitle6": "Seek out learning resources",
+        "paragraph6": "There are many online resources available, such as tutorials, courses, books, and discussion forums. Take advantage of these resources to learn new concepts and solve problems.",
+        "subtitle7": "Collaborate with others",
+        "paragraph7": "Join programming communities, participate in open-source projects, or find a mentor. Collaborating with other programmers will help you learn new skills and see different approaches to solving problems.",
+        "subtitle8": "Stay updated",
+        "paragraph8": "Technology in the programming world advances rapidly. Keep up to date with the latest trends, tools, and best practices.",
+        "subtitle9": "Persist",
+        "paragraph9": "Programming can be challenging at times, but don't give up. With perseverance and practice, you will improve over time."
+}

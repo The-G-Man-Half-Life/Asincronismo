@@ -1,0 +1,21 @@
+{
+    "title": "Dicas Fundamentais para Programadores Iniciantes",
+        "subtitle1": "Comece com os fundamentos",
+        "paragraph1": "Aprenda os conceitos básicos de programação antes de se aprofundar em uma linguagem ou tecnologia específica. Entender como funcionam as variáveis, estruturas de controle, funções, etc., lhe dará uma base sólida para construir.",
+        "subtitle2": "Escolha uma linguagem de programação e pratique",
+        "paragraph2": "Não se sobrecarregue tentando aprender várias linguagens ao mesmo tempo. Escolha uma que te interesse e comece a praticar com ela. Python é uma boa opção para iniciantes, pois é fácil de aprender e possui uma grande comunidade de suporte.",
+        "subtitle3": "Não tenha medo de cometer erros",
+        "paragraph3": "Os erros fazem parte do processo de aprendizagem. Não desanime se algo não funcionar na primeira vez. Aprenda com seus erros e continue em frente.",
+        "subtitle4": "Pratique regularmente",
+        "paragraph4": "A programação é como qualquer outra habilidade: quanto mais você pratica, melhor você se torna. Dedique tempo regularmente para escrever código e resolver problemas de programação.",
+        "subtitle5": "Não tenha medo de pedir ajuda",
+        "paragraph5": "A melhor maneira de aprender é construindo coisas. Comece com projetos pequenos e aumente gradualmente a complexidade à medida que ganha mais experiência, mas se você se sentir sobrecarregado, não hesite em pedir apoio a outras pessoas que possam te guiar.",
+        "subtitle6": "Busque recursos de aprendizado",
+        "paragraph6": "Há muitos recursos online disponíveis, como tutoriais, cursos, livros e fóruns de discussão. Aproveite esses recursos para aprender novos conceitos e resolver problemas.",
+        "subtitle7": "Colabore com outros",
+        "paragraph7": "Junte-se a comunidades de programadores, participe de projetos de código aberto ou encontre um mentor. Colaborar com outros programadores te ajudará a aprender novas habilidades e a ver diferentes abordagens para resolver problemas.",
+        "subtitle8": "Mantenha-se atualizado",
+        "paragraph8": "A tecnologia no mundo da programação avança rapidamente. Mantenha-se atualizado com as últimas tendências, ferramentas e práticas recomendadas.",
+        "subtitle9": "Persista",
+        "paragraph9": "A programação pode ser desafiadora às vezes, mas não desista. Com perseverança e prática, você vai melhorar com o tempo."
+}
