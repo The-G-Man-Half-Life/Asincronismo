@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "001",
+      "username": "usuario1",
+      "lastName": "usuario1",
+      "email": "usuario1@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "002",
+      "username": "usuario2",
+      "lastName": "usuario2",
+      "email": "usuario2@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "003",
+      "username": "usuario3",
+      "lastName": "usuario3",
+      "email": "usuario3@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "675e",
+      "username": "1017930821",
+      "lastName": "aa",
+      "email": "david@gmail.com",
+      "password": "aa"
+    },
+    {
+      "id": "ad20",
+      "username": "a",
+      "lastName": "a",
+      "email": "angelicamhg31@gmail.com",
+      "password": "a"
+    },
+    {
+        "id": "2626",
+        "username": "The-G-Man-Half-Life",
+        "lastName": "Mateo",
+        "email": "mateomoospina@gmail.com",
+        "password": "12345"
+    }
+  ]
+}
