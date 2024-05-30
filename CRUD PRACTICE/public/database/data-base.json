@@ -1,0 +1,29 @@
+{
+    "phones":[
+        {
+            "nameDevice":"Poco x6 pro",
+            "processorName": "Dimensity 8300-Ultra",
+            "processorSize": "4nm",
+            "processorCPU": "Octa-core",
+            "processorGPU": "Mali-G615",
+            "storage": "512GB",
+            "ram":"12GB",
+            "ufs":"4.0",
+            "height":"160.45mm",
+            "width":"74,34mm",
+            "thickness":"8.35mm",
+            "weight":"190g",
+            "displayKind":"AMOLED",
+            "pixelDensity":"446PPI",
+            "brightness": "1800nits",
+            "refreshRate":"120Hz",
+            "glassKind": "Corning Gorilla Glass 5",
+            "firstRearCamera": "64MP",
+            "secondRearCamera": "8MP",
+            "thirdRearCamera": "2MP",
+            "frontCamera": "16MP",
+            "batteryAmount": "5500mAH",
+            "chargerPower":"67W"
+        }
+    ]
+}
