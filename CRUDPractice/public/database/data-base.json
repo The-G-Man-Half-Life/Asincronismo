@@ -25,32 +25,13 @@
       "frontCamera": "16mp",
       "batteryAmount": "5000 mah",
       "chargerPower": "120 W"
-    },
+    }
+  ],
+  "users": [
     {
-      "id": "f2rfg1jke",
-      "nameDevice": "antes",
-      "processorName": "a",
-      "processorSize": "a",
-      "processorCPU": "a",
-      "processorGPU": "a",
-      "storage": "a",
-      "ram": "a",
-      "ufs": "a",
-      "height": "a",
-      "width": "a",
-      "thickness": "a",
-      "weight": "a",
-      "displayKind": "a",
-      "pixelDensity": "a",
-      "brightness": "a",
-      "refreshRate": "a",
-      "glassKind": "a",
-      "firstRearCamera": "a",
-      "secondRearCamera": "a",
-      "thirdRearCamera": "a",
-      "frontCamera": "a",
-      "batteryAmount": "a",
-      "chargerPower": "a"
+      "id": "ccjhp5c22",
+      "userName": "mateo",
+      "password": "1234"
     }
   ]
 }
