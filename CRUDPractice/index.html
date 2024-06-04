@@ -15,22 +15,16 @@
     <meta name="googlebot" content="index,follow" />
     <meta name="revisit-after" content="15days" />
     <link rel="shortcut icon" href="./public/images/CRUD-favicon.webp" type="image/x-icon">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./src/styles/styles.scss">
     <title>CRUD</title>
 </head>
 
 <body>
     <header>
-        <section>
-            <h1>
-                CRUD practice
-            </h1>
-        </section>
     </header>
-    <main>
-
-        <section class="Form cellphone">
+    <main >
+        <section class="Form cellphone ">
             <form id="form">
                 <h2 class="text-center">Sign in a new cellphone</h2>
                 <div class="form-floating mb-3">
@@ -208,8 +202,60 @@
         
 
     </main>
-    <footer>
-
+    <footer class="d-flex flex-column align-items-center gap-2">
+        <section class="d-flex justify-content-evenly align-items-start link">
+            <article class="footer-content">
+                <h2 class="mb-4">This is my CRUD footer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Rem quam accusamus cumque neque, 
+                error in odit corrupti debitis natus eligendi 
+                officia adipisci quos, saepe fugiat asperiores unde, 
+                assumenda a velit.</p>
+            </article>
+            <article>
+                <h2>LINKS</h2>
+                <p>Link 1</p>
+                <p>Link 2</p>
+                <p>Link 3</p>
+                <p>Link 4</p>
+            </article>
+            <article>
+                <h2>LINKS</h2>
+                <p>Link 1</p>
+                <p>Link 2</p>
+                <p>Link 3</p>
+                <p>Link 4</p>
+            </article>
+            <article>
+                <h2>LINKS</h2>
+                <p>Link 1</p>
+                <p>Link 2</p>
+                <p>Link 3</p>
+                <p>Link 4</p>
+            </article>
+        </section>
+        <section>
+            <article class="d-flex align-items-center justify-content-center gap-4 register mb-5">
+                <p class="m-0">Register for FREE</p>
+                <button>SIGN UP!</button>
+            </article>
+        </section>
+        <section>
+            <article class="d-flex gap-2 social-media">
+                <div class="facebook-div icon"><img class="facebook" width="30" height="30" src="./public/images/facebook-icon.webp" alt="facebook" srcset=""></div>
+                <div class="twitter icon"><i class="bi bi-twitter"></i></div>
+                <div class="google-div icon"><img class="google" width="30" height="30"  src="./public/images/google-plus.webp" alt="" srcset=""></div>
+                <div class="linked-in-div icon"><img width="30" class="linked-in" height="30" src="./public/images/linkedin.webp" alt="" srcset=""></div>
+                <div class="instagram icon"><i class="bi bi-instagram"></i></div>
+            </article>
+        </section>
+        <hr>
+        <section>
+            <article class="d-flex gap-2">
+                <i class="bi bi-c-circle"></i>
+                <p>2020 Copyright: <span>MD Bootstrap</span></p>
+            </article>
+        </section>
     </footer>
     <script type="module" src="./src/js/main.js"></script>
     <script src="./public/components/headerAndFooter.js"></script>

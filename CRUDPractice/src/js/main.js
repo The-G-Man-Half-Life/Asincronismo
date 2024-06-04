@@ -258,13 +258,14 @@ async function displayFoundPhone(data,displayFoundPhoneSpace){
         displayFoundPhoneSpace.innertHTML= ""
         displayFoundPhoneSpace.innerHTML = `
         <article>
-        <h2>There is not any phone with the name you are looking for:</h2>
+        <h2>There is not any phone with the name you are looking for</h2>
     </article>
         `
     }
     else{
         displayFoundPhoneSpace.innerHTML = ""
         displayFoundPhoneSpace.innerHTML = `
+        <h2>These are all of the results under the name:${namePhone.value}</h2>
         <table class="table">
         <thead>
             <tr>

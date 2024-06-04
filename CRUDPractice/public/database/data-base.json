@@ -25,6 +25,32 @@
       "frontCamera": "16mp",
       "batteryAmount": "5000 mah",
       "chargerPower": "120 W"
+    },
+    {
+      "id": "fzp3vy94b",
+      "nameDevice": "poco x6 pro",
+      "processorName": "Mediatek 8300 ultra",
+      "processorSize": "4nm",
+      "processorCPU": "Octa-core",
+      "processorGPU": "Adreno GPU",
+      "storage": "512 gb",
+      "ram": "12 G",
+      "ufs": "4.0",
+      "height": "160.86 mm",
+      "width": "74.95 mm",
+      "thickness": "8.21mm",
+      "weight": "209 g",
+      "displayKind": "AMOLED",
+      "pixelDensity": "526 ppi",
+      "brightness": "1800 nits",
+      "refreshRate": "120 hz",
+      "glassKind": "Gorilla glass",
+      "firstRearCamera": "50 MP",
+      "secondRearCamera": "8 MP",
+      "thirdRearCamera": "2 MP",
+      "frontCamera": "16 MP",
+      "batteryAmount": "5000 mAh",
+      "chargerPower": "67 W"
     }
   ],
   "users": [
