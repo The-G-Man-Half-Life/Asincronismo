@@ -56,7 +56,12 @@
   "users": [
     {
       "id": "ccjhp5c22",
-      "userName": "mateo",
+      "email": "1@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "fb40klbjt",
+      "email": "ajdjfjakdsfjasdf@gmail.com",
       "password": "1234"
     }
   ]

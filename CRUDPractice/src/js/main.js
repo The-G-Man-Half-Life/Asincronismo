@@ -40,6 +40,9 @@ let responseJson
 let idExterno 
 
 showCellphone(url, tbody)
+verifyAccount()
+logout()
+
 
 form.addEventListener("submit", async (event) => {
     if (flag === true) {
@@ -87,7 +90,54 @@ formFindingPhone.addEventListener("submit", async (event) => {
     await displayFoundPhone(data,displayFoundPhoneSpace)
 })
 
-function ID() {
+async function logout() {
+    let logout = document.getElementById("btn-logout")
+    logout.addEventListener("click",()=>{
+        localStorage.clear()
+        window.location.href="./"
+    })
+}
+
+async function verifyAccount(){
+    let verification = localStorage.getItem("access")
+    if(verification == "true"){
+            let buttons = document.getElementById("buttons")
+            let btnLogOut = document.createElement("button")
+            btnLogOut.id = "btn-logout"
+            let spanText = document.createElement("span")
+            spanText.textContent = "Log Out"
+            btnLogOut.appendChild(spanText)
+            buttons.replaceChildren(btnLogOut)
+    }
+    else{
+        let buttons = document.getElementById("buttons")
+
+        let anchorButton1 = document.createElement("a")
+        anchorButton1.href = "../../../src/pages/login.html"
+        let button1 = document.createElement("button")
+        button1.id = "button-1"
+        let spanButton1 = document.createElement("span")
+        spanButton1.textContent = "Log in"
+
+        anchorButton1.appendChild(button1)
+        button1.appendChild(spanButton1)
+
+        let anchorButton2 = document.createElement("a")
+        anchorButton2.href = "../../../src/pages/register.html"
+        let button2 = document.createElement("button")
+        button2.id = "button-2"
+        let spanButton2 = document.createElement("span")
+        spanButton2.textContent = "Sign Up"
+
+        anchorButton2.appendChild(button2)
+        button2.appendChild(spanButton2)
+
+        buttons.replaceChildren(anchorButton1)
+        buttons.append(anchorButton2)
+    }
+}
+
+ function ID() {
     let randomNumber = Math.random().toString(36).substr(2, 9)
     return randomNumber
 }
