@@ -7,7 +7,7 @@ let form = document.getElementById("register-form")
 
 let url = "http://localhost:3000/users"
 
-
+guardian()
 form.addEventListener("submit",async(event)=>{
     event.preventDefault()
     await verification()
@@ -28,5 +28,12 @@ async function verification(){
     }
     else{
         alert("Verifique usuario y contraseña")
+    }
+}
+
+function guardian(){
+    let verification= localStorage.getItem("access")
+    if(verification=="true"){
+        window.location.href="./"
     }
 }

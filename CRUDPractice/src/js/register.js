@@ -9,6 +9,8 @@ let buttons = document.getElementById("buttons")
 
 let url = "http://localhost:3000/users"
 
+guardian()
+
 form.addEventListener("submit", async(event)=>{
     event.preventDefault()
     await verifyUserExistence(email,password)
@@ -20,6 +22,13 @@ function IDRandomGeneration() {
     console.log(randomNumber)
     return randomNumber
     
+}
+
+function guardian(){
+    let verification= localStorage.getItem("access")
+    if(verification=="true"){
+        window.location.href="./"
+    }
 }
 
 async function verifyUserExistence(email,password) {
